@@ -50,5 +50,5 @@ metrics = {
     "rmse": rmse
 }
 
-with open("app/artifacts/metrics.json", "w") as f:
+with open("metrics.json", "w") as f:
     json.dump(metrics, f, indent=4)
