@@ -45,5 +45,5 @@ metrics = {
     "r2": r2
 }
 
-with open("metrics.json", "w") as f:
+with open("app/artifacts/metrics.json", "w") as f:
     json.dump(metrics, f, indent=4)
